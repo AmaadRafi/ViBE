@@ -9,8 +9,26 @@ export class Controller {
     }
 
     //add user TODO
+    public addUser(){
+
+    }
+
 
     //delete user by id TODO 
+    public deleteUser(){
 
-    //user info by id TODO
+    }
+
+    //update user by id TODO
+    public updateUser(){
+        
+    }
+
+    //get user info by id TODO
+    public getUser(){
+        
+    }
+
+
+
 }
