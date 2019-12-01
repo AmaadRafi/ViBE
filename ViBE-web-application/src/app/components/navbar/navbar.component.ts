@@ -21,6 +21,14 @@ export class NavbarComponent implements OnInit {
     document.getElementById('modal-login').style.display='block';
   }
 
+  onClick_openRegister() {
+    console.log("register was clicked");
+    document.getElementById('modal-register').style.display='block';
+  }
+  onClick_Register(){
+    
+  }
+
   onClick_CloseModal() {
     console.log("modal close clicked");
     document.getElementById('modal-login').style.display='none';
